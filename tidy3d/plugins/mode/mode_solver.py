@@ -1489,6 +1489,7 @@ class ModeSolver(Tidy3dBaseModel):
         _, (h_min_s, v_min_s) = Box.pop_axis(self.simulation.bounds[0], axis=n_axis)
         _, (h_max_s, v_max_s) = Box.pop_axis(self.simulation.bounds[1], axis=n_axis)
 
+        b = self.plane.center[0]
         h_min = self.plane.center[t_axes[0]] - self.plane.size[t_axes[0]] / 2
         h_max = self.plane.center[t_axes[0]] + self.plane.size[t_axes[0]] / 2
         v_min = self.plane.center[t_axes[1]] - self.plane.size[t_axes[1]] / 2
