@@ -1,0 +1,86 @@
+solid "wg2"
+  facet normal -0.993605256081 -6.72994104889e-09 0.112909674644
+    outer loop
+      vertex -0.249999985099 -5 -0.110000371933
+      vertex -0.224999964237 -5 0.109999775887
+      vertex -0.249999985099 5 -0.109999775887
+    endloop
+  endfacet
+  facet normal -0.993605256081 -3.36497496534e-09 0.112909823656
+    outer loop
+      vertex -0.249999985099 5 -0.109999775887
+      vertex -0.224999964237 -5 0.109999775887
+      vertex -0.224999964237 5 0.11000007391
+    endloop
+  endfacet
+  facet normal 0 5.96046447754e-08 -1
+    outer loop
+      vertex -0.249999985099 5 -0.109999775887
+      vertex 0.249999985099 -5 -0.110000371933
+      vertex -0.249999985099 -5 -0.110000371933
+    endloop
+  endfacet
+  facet normal 0 5.96046447754e-08 -1
+    outer loop
+      vertex 0.249999985099 5 -0.109999775887
+      vertex 0.249999985099 -5 -0.110000371933
+      vertex -0.249999985099 5 -0.109999775887
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex -0.224999964237 5 0.11000007391
+      vertex 0.249999985099 5 -0.109999775887
+      vertex -0.249999985099 5 -0.109999775887
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0.224999964237 5 0.11000007391
+      vertex 0.249999985099 5 -0.109999775887
+      vertex -0.224999964237 5 0.11000007391
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex -0.224999964237 -5 0.109999775887
+      vertex -0.249999985099 -5 -0.110000371933
+      vertex 0.249999985099 -5 -0.110000371933
+    endloop
+  endfacet
+  facet normal -0 -1 -0
+    outer loop
+      vertex 0.224999964237 -5 0.109999775887
+      vertex -0.224999964237 -5 0.109999775887
+      vertex 0.249999985099 -5 -0.110000371933
+    endloop
+  endfacet
+  facet normal 0 -2.98023223877e-08 1
+    outer loop
+      vertex -0.224999964237 -5 0.109999775887
+      vertex 0.224999964237 -5 0.109999775887
+      vertex -0.224999964237 5 0.11000007391
+    endloop
+  endfacet
+  facet normal 0 -2.98023223877e-08 1
+    outer loop
+      vertex -0.224999964237 5 0.11000007391
+      vertex 0.224999964237 -5 0.109999775887
+      vertex 0.224999964237 5 0.11000007391
+    endloop
+  endfacet
+  facet normal 0.993605256081 -3.36497052444e-09 0.112909674644
+    outer loop
+      vertex 0.224999964237 -5 0.109999775887
+      vertex 0.249999985099 -5 -0.110000371933
+      vertex 0.224999964237 5 0.11000007391
+    endloop
+  endfacet
+  facet normal 0.993605256081 -6.72994993067e-09 0.112909823656
+    outer loop
+      vertex 0.224999964237 5 0.11000007391
+      vertex 0.249999985099 -5 -0.110000371933
+      vertex 0.249999985099 5 -0.109999775887
+    endloop
+  endfacet
+endsolid "wg2"

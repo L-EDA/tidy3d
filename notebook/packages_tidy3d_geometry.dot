@@ -1,0 +1,18 @@
+digraph "packages_tidy3d_geometry" {
+rankdir=BT
+charset="utf-8"
+"tidy3d.components.geometry" [color="black", label=<tidy3d.components.geometry>, shape="box", style="solid"];
+"tidy3d.components.geometry.base" [color="black", label=<tidy3d.components.geometry.base>, shape="box", style="solid"];
+"tidy3d.components.geometry.mesh" [color="black", label=<tidy3d.components.geometry.mesh>, shape="box", style="solid"];
+"tidy3d.components.geometry.polyslab" [color="black", label=<tidy3d.components.geometry.polyslab>, shape="box", style="solid"];
+"tidy3d.components.geometry.primitives" [color="black", label=<tidy3d.components.geometry.primitives>, shape="box", style="solid"];
+"tidy3d.components.geometry.triangulation" [color="black", label=<tidy3d.components.geometry.triangulation>, shape="box", style="solid"];
+"tidy3d.components.geometry.utils" [color="black", label=<tidy3d.components.geometry.utils>, shape="box", style="solid"];
+"tidy3d.components.geometry.utils_2d" [color="black", label=<tidy3d.components.geometry.utils_2d>, shape="box", style="solid"];
+"tidy3d.components.geometry.base" -> "tidy3d.components.geometry.base" [arrowhead="open", arrowtail="none"];
+"tidy3d.components.geometry.base" -> "tidy3d.components.geometry.utils" [arrowhead="open", arrowtail="none"];
+"tidy3d.components.geometry.mesh" -> "tidy3d.components.geometry.base" [arrowhead="open", arrowtail="none"];
+"tidy3d.components.geometry.polyslab" -> "tidy3d.components.geometry.base" [arrowhead="open", arrowtail="none"];
+"tidy3d.components.geometry.primitives" -> "tidy3d.components.geometry.base" [arrowhead="open", arrowtail="none"];
+"tidy3d.components.geometry.primitives" -> "tidy3d.components.geometry.polyslab" [arrowhead="open", arrowtail="none"];
+}

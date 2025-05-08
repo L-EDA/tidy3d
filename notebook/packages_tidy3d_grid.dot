@@ -1,0 +1,10 @@
+digraph "packages_tidy3d" {
+rankdir=BT
+charset="utf-8"
+"tidy3d.components.grid" [color="black", label=<tidy3d.components.grid>, shape="box", style="solid"];
+"tidy3d.components.grid.grid" [color="black", label=<tidy3d.components.grid.grid>, shape="box", style="solid"];
+"tidy3d.components.grid.grid_spec" [color="black", label=<tidy3d.components.grid.grid_spec>, shape="box", style="solid"];
+"tidy3d.components.grid.mesher" [color="black", label=<tidy3d.components.grid.mesher>, shape="box", style="solid"];
+"tidy3d.components.grid.grid_spec" -> "tidy3d.components.grid.grid" [arrowhead="open", arrowtail="none"];
+"tidy3d.components.grid.grid_spec" -> "tidy3d.components.grid.mesher" [arrowhead="open", arrowtail="none"];
+}
